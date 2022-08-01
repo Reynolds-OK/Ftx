@@ -132,7 +132,6 @@
 	display: block;
 	border-radius: 3px;
 	text-transform: uppercase;
-	margin-left: 80%;
 }
 
 .submit-btn:hover{
@@ -146,7 +145,7 @@
 .web{
 	display: block;
 	margin: 10px auto;
-	width: 80%
+	width: 100%
 }
 
 #status a{
@@ -157,4 +156,24 @@
 	color: #ffff;
 	text-align: center;
 	margin: 20px auto; 
+}
+
+@media only screen and (max-width: 600px) {
+	.booking-form .form-header h1 {
+			font-size: 30px;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: #ffc001;
+			margin: 0px;
+		}
+
+		.booking-form .form-header form img{
+			width: 500px
+		}
+
+		.booking-form {
+			max-width: 642px;
+			width: 80%;
+			margin: auto;
+		}
 }
