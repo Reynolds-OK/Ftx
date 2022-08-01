@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>FTX AFRICA</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<div class="form-header">
+							<h1>FTX AFRICA</h1>
+						</div>
+						<form>
+							<img src="web.jpg" alt="Exploring opportunities" class="web">
+
+							<p>Click <a href="https://chat.whatsapp.com/Hiwc9vYj7DH6bmaNaa6tRI" target="_blank">here</a> to join the FTX WhatsApp Group</p>
+
+							<div class="row">
+								<div class="col-sm-6"></div>
+
+								<div class="col-sm-6">
+									<button id="status" type="button" class="submit-btn">Done</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<link rel="stylesheet" href="alert/dist/sweetalert.css">
+
+	<script type="text/javascript">
+		var status = document.getElementById("status").addEventListener("click", function () {
+			swal("Congrats", "You've signed up for the event", "success");
+		})
+	</script>
+</body>
+
+</html>
